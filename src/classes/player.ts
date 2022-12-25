@@ -1,9 +1,11 @@
-export class player {
+import { IsPlayer} from '../interface/Iplayer.js';
+
+export class player implements IsPlayer {
 
     constructor(
-        private name: string,
+        public name: string,
         public age: number,
-        readonly Country: string
+       public Country: string
     ) {
 
     }
