@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@typescript-tools/tsconfig-includes": "^2.0.1"
+  }
+}
